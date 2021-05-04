@@ -22,7 +22,8 @@ spec:
           path: /sorc
       containers:
       - name: php
-        image: kiyange26773/biokycappdevapp3
+        #image: kiyange26773/biokycappdevapp3
+        image: kiyange26773/biokycx:v1
         volumeMounts:
         - name: dir
           mountPath: /sorc
