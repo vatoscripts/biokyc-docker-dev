@@ -1,0 +1,20 @@
+[2021-04-15 23:10:11] local.EMERGENCY: array (
+  'user' => '255755003637',
+  'Request' => 
+  array (
+    'MSISDN' => '0742331710',
+    'UserID' => 297,
+  ),
+  'Response' => 
+  array (
+    'FirstName' => '',
+    'LastName' => '',
+    'RegistrationStatus' => 'NONE',
+    'bioRegStatus' => 'N',
+    'IDType' => NULL,
+    'IDNo' => '',
+    'Code' => 0,
+    'Message' => NULL,
+    'DOB' => '',
+  ),
+)  

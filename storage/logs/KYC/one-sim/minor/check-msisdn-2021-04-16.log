@@ -1,0 +1,40 @@
+[2021-04-16 19:38:26] local.EMERGENCY: array (
+  'user' => '255755003637',
+  'Request' => 
+  array (
+    'MSISDN' => '0742331710',
+    'UserID' => 297,
+  ),
+  'Response' => 
+  array (
+    'FirstName' => NULL,
+    'LastName' => NULL,
+    'RegistrationStatus' => NULL,
+    'bioRegStatus' => NULL,
+    'IDType' => NULL,
+    'IDNo' => NULL,
+    'Code' => 2,
+    'Message' => 'CORBA system exception : omg.org.CORBA.TRANSIENT [Unable to connect to target.] , completed: Completed_No minor: 4000',
+    'DOB' => NULL,
+  ),
+)  
+[2021-04-16 19:38:38] local.EMERGENCY: array (
+  'user' => '255755003637',
+  'Request' => 
+  array (
+    'MSISDN' => '0742331710',
+    'UserID' => 297,
+  ),
+  'Response' => 
+  array (
+    'FirstName' => NULL,
+    'LastName' => NULL,
+    'RegistrationStatus' => NULL,
+    'bioRegStatus' => NULL,
+    'IDType' => NULL,
+    'IDNo' => NULL,
+    'Code' => 2,
+    'Message' => 'CORBA system exception : omg.org.CORBA.TRANSIENT [Unable to connect to target.] , completed: Completed_No minor: 4000',
+    'DOB' => NULL,
+  ),
+)  

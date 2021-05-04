@@ -1,0 +1,21 @@
+[2021-04-15 23:11:46] local.CRITICAL: array (
+  'Request' => 'POST /api/RegisterMinorNew HTTP/1.1
+Authorization: 
+User-Agent: GuzzleHttp/6.5.5 curl/7.64.0 PHP/7.3.9
+Content-Type: application/json
+Host: 172.18.66.205
+
+{"ParentFingerCode":null,"ParentFingerData":null,"ParentNIN":null,"MSISDN":"0742331710","ParentMSISDN":null,"BirthcertificateNo":null,"MinorPicture":null,"BirthcertificateImage":null,"MinorFirstName":null,"MinorMiddleName":null,"MinorLastName":null,"Gender":null,"MinorDob":"2021-04-01","Platform":"web","UserID":297}',
+  'Response' => 'HTTP/1.1 500 Internal Server Error
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Type: application/json; charset=utf-8
+Expires: -1
+Server: Microsoft-IIS/8.5
+X-AspNet-Version: 4.0.30319
+X-Powered-By: ASP.NET
+Date: Thu, 15 Apr 2021 20:11:46 GMT
+Content-Length: 36
+
+{"Message":"An error has occurred."}',
+)  

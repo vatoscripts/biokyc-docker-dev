@@ -1,0 +1,62 @@
+[2021-04-15 23:11:46] local.CRITICAL: array (
+  'Body' => '{"ParentFingerCode":null,"ParentFingerData":null,"ParentNIN":null,"MSISDN":"0742331710","ParentMSISDN":null,"BirthcertificateNo":null,"MinorPicture":null,"BirthcertificateImage":null,"MinorFirstName":null,"MinorMiddleName":null,"MinorLastName":null,"Gender":null,"MinorDob":"2021-04-01","Platform":"web","UserID":297}',
+  'Request' => 
+  GuzzleHttp\Psr7\Request::__set_state(array(
+     'method' => 'POST',
+     'requestTarget' => NULL,
+     'uri' => 
+    GuzzleHttp\Psr7\Uri::__set_state(array(
+       'scheme' => 'http',
+       'userInfo' => '',
+       'host' => '172.18.66.205',
+       'port' => NULL,
+       'path' => '/api/RegisterMinorNew',
+       'query' => '',
+       'fragment' => '',
+    )),
+     'headers' => 
+    array (
+      'Content-Length' => 
+      array (
+        0 => '317',
+      ),
+      'Authorization' => 
+      array (
+        0 => '',
+      ),
+      'User-Agent' => 
+      array (
+        0 => 'GuzzleHttp/6.5.5 curl/7.64.0 PHP/7.3.9',
+      ),
+      'Content-Type' => 
+      array (
+        0 => 'application/json',
+      ),
+      'Host' => 
+      array (
+        0 => '172.18.66.205',
+      ),
+    ),
+     'headerNames' => 
+    array (
+      'content-length' => 'Content-Length',
+      'authorization' => 'Authorization',
+      'user-agent' => 'User-Agent',
+      'content-type' => 'Content-Type',
+      'host' => 'Host',
+    ),
+     'protocol' => '1.1',
+     'stream' => 
+    GuzzleHttp\Psr7\Stream::__set_state(array(
+       'stream' => NULL,
+       'size' => 317,
+       'seekable' => true,
+       'readable' => true,
+       'writable' => true,
+       'uri' => 'php://temp',
+       'customMetadata' => 
+      array (
+      ),
+    )),
+  )),
+)  
