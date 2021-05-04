@@ -5,7 +5,7 @@ metadata:
   labels:
     tier: backend
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: php
@@ -22,7 +22,7 @@ spec:
           path: /sorc
       containers:
       - name: php
-        image: kiyange26773/biokycapp
+        image: kiyange26773/biokycappdevapp2
         volumeMounts:
         - name: dir
           mountPath: /sorc
